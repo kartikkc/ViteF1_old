@@ -1,0 +1,52 @@
+*{
+     font-family:  Century Gothic;
+}
+body{
+     background-color: rgb(245, 66, 78);
+}
+.row{
+     margin-top: 76px;
+     font-family:  Century Gothic;
+
+}
+.container-fluid{
+     margin-top: 100px;
+}
+.navbr{
+     box-shadow: rgba(0,0,0,0.1) 0 1px 4px 0;;
+     margin-top: -20px;
+     z-index:  -2;
+     margin-left:  0px;
+     height: 100%;
+     width: 250px;
+     position: fixed;
+}
+.red{
+}
+.main-doc{
+     z-index:  2;
+     margin-top: auto;
+     margin-left:  160px;
+     margin-left:  255px;
+     top: 0;
+}
+.drimg{
+   z-index:  1;
+   position:  relative;
+   opacity: 1;
+}  
+ .ric{
+     margin-top: 5%;
+     height:  200px;
+     width:  auto;
+     float: right;
+     margin-right: 75px;
+}
+.anal{
+     background: #286bfc;
+     border: dashed;
+     border-color: #fff;
+     height: 75px;
+     width:  200px;
+     color: #fff;
+}

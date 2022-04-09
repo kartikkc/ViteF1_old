@@ -1,0 +1,177 @@
+*{
+                    margin: 0;
+                    padding: 0;
+                    font-family: century gothic ;
+               }
+.nav{
+               z-index: 1200;
+               right:10%;
+               left: 50%;
+               background-color: rgb(245, 66, 78);
+               box-shadow: rgba(0,0,0,0.2) 0 2px 6px 0;
+               overflow: visible;
+               position:  fixed;
+               z-index:  4;
+               left:  0;
+               right:  0;
+               top: 0;
+               
+                 }
+           body{ 
+                background-color: rgb(245, 66, 78);
+                
+                margin:0 auto ;
+                
+}
+               
+          .lgo{
+                height:80px;
+                width:80px;
+             }
+          .logo img{
+               height:auto;
+               width:140px;
+               float: left;
+               margin-left: 50px;
+               
+          }
+          .rht{
+               list-style-type: none;
+               display: inline-block;
+               float: right;
+               list-style-type:none;
+               margin-top:25px;
+               margin-right: 80px;
+          }
+          .rht li{
+               float: left;
+               width:140px;
+               height:60px;
+               font-size:20px;
+               line-height:60px:
+          }
+          .rht li a{
+               text-decoration: none;
+               color: #fff;
+               background-color: ;
+               border: 1px transparent #fff;
+               display: block;
+               text-align: center;
+          }
+          .rht li a:hover{
+               background-color: #fff;
+               color:#000;
+               transition: 0.5s all ease;
+          }
+          .rht li.active a{
+                background-color: #fff;
+               color:#000;
+          }
+          .hmelst{ 
+           list-style: none;
+           margin-top: 20px;
+            box-shadow: rgba(0,0,0,0.2) 0 2px 6px 0;
+          }
+          .hmelst li{
+           background: #286bfc;
+           display:none;
+          }
+          
+          ul li:hover .hmelst li{
+           display:block;
+           
+           transition:1s all ease;
+           animation:drop 1s ease;
+          }
+          @keyframes drop{
+           0%{
+              transform: scale(2,2) rotate(30deg)
+           }
+           100%{
+             transform: scale(1,1) rotate(0deg)
+           }
+          }
+          .lgt{
+               list-style-type: none;
+               margin-top: 20px;
+               box-shadow: rgba(0,0,0,0.2) 0 2px 6px 0;
+          }
+          .lgt li{
+               background: #286bfc;
+               display: none;
+          }
+          ul li:hover .lgt li{
+               display: block;
+               transition: 1s all ease;
+               animation: drop 1s ease;
+          }
+          @keyframes drop{
+               0%{
+                    transform: scale(2,2) rotate(30deg)
+               }
+               100%{
+                    transform: scale(1,1) rotate(0deg)
+               }
+          }
+          .dwd{
+               list-style-type: none;
+               margin-top: 20px;
+               box-shadow: rgba(0,0,0,0.2) 0 2px 6px 0;
+          }
+          .dwd li{
+               background: #286bfc;
+               display: none;
+          }
+          ul li:hover .dwd li{
+               display: block;
+                transition: 1s all ease;
+               animation: drop 1s ease;
+          }
+          @keyframes drop{
+               0%{
+                    transform: scale(2,2) rotateZ(30deg)
+               }
+               100%{
+                    transform: scale(1,1) rotateZ(0deg)
+               }
+          }
+          .upd{
+               list-style-type: none;
+               margin-top: 20px;
+               box-shadow: rgba(0,0,0,0.2) 0 2px 6px 0;
+          }
+          .upd li{
+               background: #286bfc;
+               display: none;
+          }
+          ul li:hover .upd li{
+               display: block;
+               transition: 1s all ease;
+               animation: drop 1s ease;
+          }
+          @keyframes drop{
+               0%{
+                    transform: scale(2,2) rotateZ(30deg)
+               }
+               100%{
+                    transform: scale(1,1) rotateZ(0deg)
+               }
+          }
+          .all_the_driver{
+                    width:100%;
+                    height:100%;
+          
+          }
+          .new_row{
+                    margin-top:10%;
+                    color:#fff;
+                    font-size: 40px;
+                    z-index: 1000000;
+          }
+          .form{
+                    margin-top:10%;
+                    
+          }
+          .frm{
+                    margin-top:10%;
+          }

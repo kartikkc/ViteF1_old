@@ -1,0 +1,12 @@
+.frm{
+     color:  #fff;
+     font-family:  Century Gothic;
+}
+.Butt{
+     background-color: rgb(245, 66, 78);
+     border: dashed;
+     border-color: #fff;
+     height: 75px;
+     width:  200px;
+     color: #286bfc;
+}

@@ -1,0 +1,30 @@
+.forv{
+     margin-top: auto;
+     height: 40%;
+     width:  auto;
+}
+.vid1{
+    position:  relative;
+    margin-top:  auto;
+    margin-bottom: auto;
+    z-index:  -1000;
+    width:  100%;
+    height: auto;
+    overflow:  hidden;
+    left:  0;
+    bottom: 0;
+}
+.myvid1{
+     position: absolute;
+     margin-top: 0 auto;
+     z-index:  -100;
+     margin-left: 50%;
+     top:  0;
+     bottom: 0;
+     left:  0;
+     right:  0;
+     max-height: 125%;
+     max-width: 35%;
+}
+
+
